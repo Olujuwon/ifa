@@ -1,11 +1,13 @@
 const members = ["Senad", 'Mohammed', 'Juwon', 'Sanjog', 'Sannu','Pragya','Anh', 'Raspin', 'Niloo', 'Lam'];
+const button =document.getElementById('d1butt');
+
 
 choosenOne= () =>{
     let choosen = Math.floor(Math.random()*10);
     console.log(choosen)
-    
-    return members[choosen]
+    return  document.getElementById("here").innerHTML = members[choosen]; 
 }
-const x =  choosenOne()
 
-document.getElementById("here").innerHTML = x;
+button.addEventListener('click', choosenOne)
+
+
