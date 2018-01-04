@@ -1,4 +1,4 @@
-# ifa
+# ifa - Integrify Academy
 Random personnel selector for appointed tasks
 
 The purpose of this light weight util is to randomly select a personnel from amongst a list of personnel.
