@@ -16,5 +16,22 @@ body {
     height: 200px;
     background-color: beige;
     text-align: center;
-
+    position: relative;
+    left: 295px;
+}
+#here{
+    color:#454E57;
+    font: bolder;
+    font-size: xx-large;
+    padding: 40px;
+    margin: 0px;
+}
+#d1butt{
+    width: 150px;
+    height: 60px;
+    background-color: transparent;
+    color: white;
+    font-size: medium;
+    font-weight: bold;
+    cursor: pointer;
 }
