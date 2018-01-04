@@ -2,15 +2,14 @@
 const token = (localStorage.getItem('token'))? JSON.parse(localStorage.getItem('token')):{
     day: [],
     month: [],
-    member:[]
+    user:[]
 }
 const members = ["Senad", 'Mohammed', 'Juwon', 'Sanjog', 'Sannu','Pragya','Anh', 'Rasbin', 'Niloo', 'Lam'];
 const button =document.getElementById('d1butt');
 
 choosenOne= () =>{
     let choosen = Math.floor(Math.random()*10);
-    token.member.push(choosen);
-    console.log(choosen)
+    token.user.push(choosen);
     return  document.getElementById("here").innerHTML = `${members[choosen]}!`; 
 }
 
@@ -23,13 +22,11 @@ button.addEventListener('click', () => {
     }else{
         token.day.push(day);
         token.month.push(month);
-        console.log(token)
         storeData();
         choosenOne();
     }
-    console.log(`${day} - ${month}`)
  });
-
+console.log(token);
 const storeData = ()=>{
     localStorage.setItem('token', JSON.stringify(token))
 };
