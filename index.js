@@ -1,4 +1,4 @@
-const members = ["Senad", 'Mohammed', 'Juwon', 'Sanjog', 'Sannu','Pragya','Anh', 'Raspin', 'Nilo', 'Lam'];
+const members = ["Senad", 'Mohammed', 'Juwon', 'Sanjog', 'Sannu','Pragya','Anh', 'Raspin', 'Niloo', 'Lam'];
 
 choosenOne= () =>{
     let choosen = Math.floor(Math.random()*10);
