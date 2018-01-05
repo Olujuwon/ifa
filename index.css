@@ -1,89 +1,113 @@
-body{
-	margin:0;
-	padding:0;
-    font-family:roboto;
-	font-size:12px;
-    background: #2980b9 url('https://static.tumblr.com/03fbbc566b081016810402488936fbae/pqpk3dn/MRSmlzpj3/tumblr_static_bg3.png') repeat 0 0;
-	-webkit-animation: 10s linear 0s normal none infinite animate;
-	-moz-animation: 10s linear 0s normal none infinite animate;
-	-ms-animation: 10s linear 0s normal none infinite animate;
-	-o-animation: 10s linear 0s normal none infinite animate;
-	animation: 10s linear 0s normal none infinite animate;
-
+body {
+  margin: 0;
+  padding: 0;
+  font-family: roboto;
+  font-size: 12px;
+  background: #2980b9 url('https://static.tumblr.com/03fbbc566b081016810402488936fbae/pqpk3dn/MRSmlzpj3/tumblr_static_bg3.png') repeat 0 0;
+  -webkit-animation: 10s linear 0s normal none infinite animate;
+  -moz-animation: 10s linear 0s normal none infinite animate;
+  -ms-animation: 10s linear 0s normal none infinite animate;
+  -o-animation: 10s linear 0s normal none infinite animate;
+  animation: 10s linear 0s normal none infinite animate;
 }
 
 @-webkit-keyframes animate {
-	from {background-position:0 0;}
-	to {background-position: 500px 0;}
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 500px 0;
+  }
 }
 
 @-moz-keyframes animate {
-	from {background-position:0 0;}
-	to {background-position: 500px 0;}
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 500px 0;
+  }
 }
 
 @-ms-keyframes animate {
-	from {background-position:0 0;}
-	to {background-position: 500px 0;}
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 500px 0;
+  }
 }
 
 @-o-keyframes animate {
-	from {background-position:0 0;}
-	to {background-position: 500px 0;}
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 500px 0;
+  }
 }
 
 @keyframes animate {
-	from {background-position:0 0;}
-	to {background-position: 500px 0;}
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 500px 0;
+  }
 }
+
 .container {
-	margin-top: 4em;
-	display: flex;
-	flex-flow: column;
-	justify-content: center;
-	align-items: center;
-	width: 100%;
+  margin-top: 4em;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
   font-family: roboto;
   text-align: center;
 }
-#d1{
-    width: 50%;
-    height: 200px;
-    background-color: white;
-    text-align: center;
-		box-shadow: 1px 1px 26px black;
-		border-radius: 5px;
-		display: flex;
-		align-items: center;
-		justify-content: center;
 
+#d1 {
+  width: 50%;
+  height: 200px;
+  background-color: white;
+  text-align: center;
+  box-shadow: 1px 1px 26px black;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-#here{
-    color:#454E57;
-    font: bolder;
-    font-size: xx-large;
-    padding: 40px;
-    margin: 0px;
+
+#here {
+  color: #454E57;
+  font: bolder;
+  font-size: xx-large;
+  padding: 40px;
+  margin: 0px;
 }
-#reset{
-    color:#fff;
-    font: normal;
-    font-size: medium;
-    padding: 0px;
-    margin: 0px;
+
+#reset {
+  color: #fff;
+  font: normal;
+  font-size: medium;
+  padding: 0px;
+  margin: 0px;
 }
-#d1butt{
-	background: transparent;
-    color: white;
-    padding: 7px 20px;
-    border-radius: 40px;
-    border: 2px solid white;
-    transition: 0.1s ease-out;
-        margin: 2em 0;
-        cursor: pointer;
+
+#d1butt {
+  background: transparent;
+  color: white;
+  padding: 7px 20px;
+  border-radius: 40px;
+  border: 2px solid white;
+  transition: 0.1s ease-out;
+  margin: 2em 0;
+  cursor: pointer;
+	outline: none;
 }
 
 #d1butt:hover {
-	color: #E4F1FE;
-    background:transparent;
+  color: #E4F1FE;
+  background: transparent;
 }
