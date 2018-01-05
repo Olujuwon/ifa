@@ -65,6 +65,13 @@ body{
     padding: 40px;
     margin: 0px;
 }
+#reset{
+    color:#fff;
+    font: normal;
+    font-size: medium;
+    padding: 0px;
+    margin: 0px;
+}
 #d1butt{
 	background: transparent;
     color: white;
