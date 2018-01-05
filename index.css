@@ -104,7 +104,7 @@ body {
   transition: 0.1s ease-out;
   margin: 2em 0;
   cursor: pointer;
-	outline: none;
+	outline: none;/*outline added*/
 }
 
 #d1butt:hover {
